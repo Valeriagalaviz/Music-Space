@@ -105,3 +105,69 @@ body{
     background: #000000;
     color: #f7deff;
 }
+
+.artist{
+    padding: 100px 0;
+    background-color: #000000;
+    position: relative;
+}
+
+.artist-content{
+    text-align: center;
+}
+
+.artist-content h2{
+    font-size: 40px;
+    color: #f7deff;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);;
+    padding: 0 250px;
+    margin-bottom: 55px;
+}
+
+.artist-group{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    padding: 0 250px;
+}
+
+.artists-1{
+    padding: 0 25px;
+}
+
+.artists-1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.artists-1 img:hover{
+    transform: scale(1.05);
+    box-shadow: #7d99e7 0px 3px 10px;
+    filter: brightness(90%);
+}
+
+.artists-1 h3{
+    font-size: 20px;
+    text-align: center;
+    color: #7d99e7;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.notes-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+}
+
+

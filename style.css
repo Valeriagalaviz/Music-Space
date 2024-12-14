@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url(assets/banner.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #e1e9ff;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icon {
+    width: 28px;
+    height: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.header-content h1{
+    font-size: 50px;
+    margin-bottom: 1px;
+    color: #abcdff;
+}
+
+.header-content h3{ 
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #f7deff;;
+}
+
+.header-content p{
+    font-size: 20px;
+    color: #f7f6f6;
+    margin-bottom: 30px;
+    padding: 0 250px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #f7deff;
+    color: #000000;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-1:hover{
+    background: #000000;
+    color: #f7deff;
+}

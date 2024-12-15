@@ -115,7 +115,7 @@ body{
 
 .artist{
     padding: 100px 0;
-    background-color: #000000;
+    background-color: #000000;  
     position: relative;
 }
 
@@ -148,6 +148,7 @@ body{
 
 .artists-1{
     padding: 0 25px;
+    text-align: center;
 }
 
 .artists-1 img{
@@ -427,3 +428,57 @@ footer{
     }
 }
 
+@media screen and (max-width: 768px) {
+    .artist-group {
+        flex-direction: column; 
+        align-items: center;   
+        padding: 0;            
+    }
+
+    .artists-1 {
+        padding: 0; 
+        align-content: center;
+        text-align: center;
+    }
+
+    .artists-1 img {
+        width: 150px; 
+        height: 150px;
+    }
+
+    .artists-1 h3 {
+        font-size: 18px; 
+    }
+
+    .social-media ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social-media ul li{
+        margin-bottom: 10px;
+    }
+
+    .phrases-1{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .phrases-1 img{
+        padding: 0;
+    }
+
+    .phrases-1 h2{
+        padding: 0;
+        margin-top: 0;
+    }
+    
+    .phrases-text{
+        text-align: center;
+        padding: 0 10px 20px 10px;
+    }
+
+}

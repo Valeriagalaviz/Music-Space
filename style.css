@@ -141,9 +141,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 50px;
-    padding: 0 170px;
+    padding: 0 150px;
 }
 
 .artists-1{
@@ -151,7 +151,7 @@ body{
 }
 
 .artists-1 img{
-    width: 190px;
+    width: 180px;
     height: 190px;
     border-radius: 50%;
 }
@@ -182,19 +182,19 @@ body{
 }
 
 .discography-1{
-    padding: 50px 100px 100px 100px;
+    padding: 50px 100px 50px 100px;
     width: 50%;
     background-color: #161616;
 }
 
-.discography-2 {
+.discography-2, .discography-3{ 
     width: 50%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.discography-2 img{
+.discography-2 img, .discography-3 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -220,6 +220,35 @@ body{
     text-align: justify;
 }
 
+.discography-1 h4{
+    font-size: 1rem;
+    color: #7d99e7;
+    margin-bottom: 15px;
+}
+
+.album-highlight{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.album-highlight img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.album-highlight ol li{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.album-highlight ol li strong{
+    color: #778165;
+}
+
 .social-media ul{
     display: flex;
     justify-content: center;
@@ -231,7 +260,7 @@ body{
     border: solid 1px #ffffff;
     color: #ffffff;
     font-size: 15px;
-    padding: 10px 15px;
+    padding: 10px 30px;
     border-radius: 5px;
 }
 
@@ -245,96 +274,81 @@ body{
     color: #eb1b48;
 }
 
-.social-media .amazon:hover{    
-    border: solid 1px #e0932d;
-    color: #e0932d;
-}
-
 .phrases{
-    padding: 50px 0;
     background-color: #000000;
-    text-align: center;
+    max-width: 100%; 
+    padding: 60px; 
 }
 
-.phrases .phrases-title{
-    font-size: 40px;
+.phrases-title{
+    font-size: 2rem;
     color: #f7deff;
     margin-bottom: 15px;
+    text-align: center;
 }   
 
-.phrases .phrases-p{ 
-    font-size: 20px;
+.phrases-p{ 
+    font-size: 1.2rem;
+    text-align: center;
     color: rgb(255, 255, 255);
     margin-bottom: 15px;
 }   
 
 .phrases-content {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
 }
 
 .phrases-1{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    padding: 15px 30px;
-    background-color: #6079c0;
-    border: solid  3px #73a7f7;
-    box-shadow: #535353 0px 3px 10px;
+    align-items: center;
+    gap: 10px;
+    background-color: #51669e;
+    box-shadow: #313131 0px 3px 10px;
     border-radius: 15px;
-    width: 30vw;
     text-align:start;
+    width: 100%; 
+    max-width: 450px; 
+    min-height: 200px; 
+    box-sizing: border-box;
+}
+
+.phrases-1:hover{
+    transform: scale(1.05);
 }
 
 .phrases-1 img{
-    width: 160px;
+    width: 150px;
     margin: 15px;
 }
 
 .phrases-1 h2{
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #ffffff;
     margin: 15px 0 0 0;
 }
 
 .phrases-1 h3{
-    font-size: 15px;
+    font-size: 1.2rem;
     color: #eeeeee;
     margin-bottom: 15px;
 }
 
 .phrases-1 p{
-    font-size: 15px;
+    font-size: 1rem;
     color: #000000;
+    padding-right: 10px;
 }
 
-/* Parte responsiva */
-
-@media (max-width: 991px){
-
-    .menu{
-        padding: 20px;
-    }
-
-    .menu label{
-        display: initial;
-    }
-
-    .menu .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #161616;
-        display: none;
-    }
-
-    .menu .navbar ul li{
-        width: 100%;
-    }
-
-    #menu:checked ~ .navbar{
-        display: initial;
-    }
-
+footer{
+    text-align: center;
+    background-color:#131213;
+    color: #fff;
+    padding: 20px;
+    border-top: solid 4px #c194cf;
 }
 

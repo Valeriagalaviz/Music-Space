@@ -1,4 +1,4 @@
-# 🎶 **Proyecto: Página de Mis Artistas Favoritos** 🎶
+# 🎶 **Proyecto: Página MUSICVIBES Selección de Artistas** 🎶
 
 Este proyecto es mi entrega final para el módulo 2. Fundamentos del Desarrollo Web del **Curso Frontend Bécalos | DEV.F**.
 Es una página web diseñada para mostrar información sobre algunos de mis artistas favoritos, incluyendo reseñas breves, álbumes destacados y enlaces a sus canciones en las principales plataformas de streaming.

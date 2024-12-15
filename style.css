@@ -352,3 +352,78 @@ footer{
     border-top: solid 4px #c194cf;
 }
 
+/* Parte responsiva */
+
+@media (max-width: 991px){
+
+    .menu{
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #161616;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{    
+        padding: 100px 30px;
+    }
+
+    .header-content p{
+        padding: 0;
+    }
+
+    .artist{
+        padding: 30px;
+    }
+
+    .artist-content h2{
+        padding: 0;
+    }
+
+    .txt-p{
+        padding: 0;
+    }
+
+    .artist-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .notes-img{
+        display: none;
+    }
+
+    .discography{
+        flex-direction:column;
+    }
+
+    .discography-1{
+        width: 100%;  
+    }
+
+    .discography-2, .discography-3{
+        display: none;
+    }
+}
+
